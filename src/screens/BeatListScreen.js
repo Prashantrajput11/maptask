@@ -8,7 +8,7 @@ const BeatListScreen = ({navigation}) => {
   const renderItem = ({item}) => (
     <TouchableOpacity
       style={styles.beatItem}
-      onPress={() => navigation.navigate('BeatDetails', {beatId: item.id})}>
+      onPress={() => navigation.navigate('BeatDetails', {beatData: item})}>
       <Text style={styles.beatName}>{item.name}</Text>
       <Text style={styles.storeCount}>{item.stores.length} Stores</Text>
     </TouchableOpacity>

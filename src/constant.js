@@ -18,8 +18,19 @@ export const beats = [
         id: 'store2',
         name: 'Kirana Store B',
         address: '456 Market Road, Delhi',
-        latitude: 28.5355,
+        latitude: 28.7045,
         longitude: 77.391,
+        products: [
+          {id: 'prod3', name: 'Cooking Oil', category: 'Groceries', price: 120},
+          {id: 'prod4', name: 'Salt', category: 'Groceries', price: 20},
+        ],
+      },
+      {
+        id: 'store3',
+        name: 'Kirana Store C',
+        address: '456 Market Road, Delhi',
+        latitude: 28.7048,
+        longitude: 77.395,
         products: [
           {id: 'prod3', name: 'Cooking Oil', category: 'Groceries', price: 120},
           {id: 'prod4', name: 'Salt', category: 'Groceries', price: 20},
